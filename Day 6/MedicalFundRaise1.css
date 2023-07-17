@@ -1,0 +1,88 @@
+.cn{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-55%);
+    width:700px;
+    height:600px;
+    background :rgba(0, 0, 0, 0.5);
+    border-radius:10px;
+    border:none;
+   }
+   .cn h1{
+    text-align:center;
+    padding: 0 0 20px 0;
+    color:white
+   }
+   .cn form{
+    padding:0 40px;
+    box-sizing:border-box;
+
+   }
+   form .tx{
+    position:relative;
+    margin:30px 20px;
+   }
+   .tx p{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+   }
+   .tx textarea{
+        padding:0 5px;
+        resize: none;
+        font-size:16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border:none;
+        outline:none;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        color:white;
+        transform: translate(-0%,-0%);
+   }
+   input[type="file"]{
+  display:none;
+   }
+   
+    .file_label label{
+    position:absolute;
+    height:60px;
+    width:250px;
+    background-color: rgba(0, 0, 0, 0.4);
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    color:white;
+    transform: translate(-5%,200%);
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 10px;
+
+   }
+
+.Next_button1 input{
+  width:30%;
+  transform:translate(110%,300%);
+  height:40px;
+  border: none;
+  background: #6abbe0;
+  border-radius:10px;
+  font-size:18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#e9f4fb;
+   font-weight: 100;
+   cursor:pointer;
+   outline:none;
+   justify-content: center;
+}
+.Next_button1 input:hover{
+border-color:#6abbe0;
+transition:0.5s;
+opacity: 0.8;
+}
