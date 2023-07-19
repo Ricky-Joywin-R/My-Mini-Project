@@ -1,0 +1,89 @@
+.cen{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-55%);
+    width:400px;
+    height:450px;
+    background :rgba(0, 0, 0, 0.4);
+    border-radius:10px;
+    border:none;
+   }
+   .cen h1{
+    text-align:center;
+    padding: 0 0 20px 0;
+    color:white
+   }
+   .cen form{
+    padding:0 40px;
+    box-sizing:border-box;
+
+   }
+   form .txt{
+    position:relative;
+    margin:30px 20px;
+   }
+   .txt input{
+        width:100%;
+        padding:0 5px;
+        height:40px;
+        font-size:16px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border:none;
+        outline:none;
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 5px;
+   }
+   .txt select{
+    width:100%;
+    padding:0 5px;
+    height:40px;
+    font-size:16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:none;
+    outline:none;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    color:white;
+   }
+   .txt p{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+   }
+   .txt label{
+    position:absolute;
+    top:30%;
+    left:16px;
+    color:white;
+    transform: translate(0%);
+    font-size:16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    pointer-events: none;
+    transition:.5s;
+   }
+.txt input:focus ~ label,
+.txt input:valid ~ label{
+  top:-20px;
+  color:#6abbe0;
+  font-size: medium;
+}
+.Next_button input{
+  width:40%;
+  transform:translate(70%,-20%);
+  height:40px;
+  border: none;
+  background: #6abbe0;
+  border-radius:20px;
+  font-size:18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:#e9f4fb;
+   font-weight: 100;
+   cursor:pointer;
+   outline:none;
+}
+.Next_button input:hover{
+border-color:#6abbe0;
+transition:0.5s;
+opacity: 0.8;
+}
