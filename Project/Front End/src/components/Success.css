@@ -1,0 +1,42 @@
+.Success{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-80%);
+    width:1000px;
+    background :rgba(0,0,0,0.6);
+    border-radius:10px;
+    border: none;
+    height:300px;
+}
+
+.Success h1{
+    text-align:center;
+    padding: 0 0 20px 0;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.Success button{
+    width:20%;
+  height:40px;
+  border:none;
+  background:#6abbe0;
+  border-radius:25px;
+  font-size:18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:white;
+   font-weight: 100;
+   transform:translate(180%,10%);
+   cursor:pointer;
+   outline:none;
+
+}
+
+.Success button:hover{
+    border-color:#2691d9;
+transition:0.5s;
+opacity: 0.8;
+
+}

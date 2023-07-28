@@ -1,0 +1,36 @@
+.About{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-30%);
+    width:1500px;
+    background :rgba(0,0,0,0.8);
+    border-radius:10px;
+    border: none;
+    height:850px;
+    
+}
+
+.About h1{
+    text-align:center;
+    padding: 0 0 20px 0;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+}
+
+.About p{
+    text-align:center;
+    padding: 10px 20px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.About_Images{
+    transform: translate(3.5%,0%);
+}
+.About img{
+    padding:20px 30px;
+    border-radius:40px;
+}
